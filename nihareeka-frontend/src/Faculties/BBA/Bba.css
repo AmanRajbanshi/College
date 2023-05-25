@@ -1,0 +1,48 @@
+.faculty__main__image {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center;
+  position: relative;
+}
+
+.faculty__main__image::before {
+  content: "";
+  background-image: url("https://res.cloudinary.com/mechi-pharma123/image/upload/v1654343878/Faculty%20Members/WhatsApp_Image_2022-06-04_at_12.40.34_PM_1_j0l91p.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.48;
+}
+
+@media screen and (max-width: 600px) {
+  .faculty__main__image {
+    min-height: 60vh;
+  }
+}
+
+.faculty__main__icon {
+  width: 50px !important;
+  height: 50px !important;
+  color: white;
+}
+
+.faculty__main__bba {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ec008d;
+  position: relative;
+}

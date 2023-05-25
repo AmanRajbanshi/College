@@ -1,0 +1,67 @@
+.news__card__main {
+  width: 30% !important;
+  margin: 20px auto !important;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .news__card__main {
+    width: 90% !important;
+  }
+}
+
+.news__card__main__title {
+  border-bottom: 3px solid #d90081;
+}
+
+.news__card__badge {
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  position: absolute;
+  top: 170px;
+  left: 130px;
+  background-color: #d90081;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .news__card__badge {
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px;
+    left: 110px;
+    background-color: #d90081;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.news__card__badge > h6 {
+  color: white;
+  top: 10px;
+  text-align: center;
+}
+
+.faculty__members__image__main__news {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.4s transform cubic-bezier(0.155, 1.105, 0.5, 2), 0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+.faculty__members__image__main__news:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.arrow__forward__icon {
+  position: absolute !important;
+  cursor: pointer !important;
+  right: 0;
+  width: 40px !important;
+  height: 40px !important;
+}
